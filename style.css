@@ -6,6 +6,7 @@
   --line: #d9d7d2;
   --x: #2f6fde;
   --o: #e0573a;
+  --hover: #f0efeb;
   --win-bg: #fff4c2;
   --focus: #2f6fde;
 }
@@ -19,6 +20,7 @@
     --line: #34383e;
     --x: #6ea0ff;
     --o: #ff8a6e;
+    --hover: #272b30;
     --win-bg: #4a4220;
     --focus: #6ea0ff;
   }
@@ -107,7 +109,7 @@ h1 {
   transition: background-color 0.15s, transform 0.1s;
 }
 
-.cell:hover:not(:disabled) { background: color-mix(in srgb, var(--surface), var(--text) 6%); }
+.cell:hover:not(:disabled) { background: var(--hover); }
 .cell:active:not(:disabled) { transform: scale(0.97); }
 .cell:disabled { cursor: default; }
 .cell.x { color: var(--x); }
