@@ -1,0 +1,11 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "Two-player tic-tac-toe in the browser",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/",
+    "start": "python3 -m http.server 8000"
+  }
+}
